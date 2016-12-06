@@ -39,4 +39,8 @@
   		</dependency>
   	</dependencies>
   </dependencyManagement>
+  <organization>
+  	<url>https://sites.google.com/site/yellowinccorp/</url>
+  	<name>Yellowinc</name>
+  </organization>
 </project>

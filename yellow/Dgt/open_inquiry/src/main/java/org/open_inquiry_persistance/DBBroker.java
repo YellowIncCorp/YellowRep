@@ -16,6 +16,7 @@ public class DBBroker {
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		connection = DriverManager.getConnection(Path,"root","root");
+		
 	}
 	
 	public static DBBroker getInstance() throws SQLException, Exception{
