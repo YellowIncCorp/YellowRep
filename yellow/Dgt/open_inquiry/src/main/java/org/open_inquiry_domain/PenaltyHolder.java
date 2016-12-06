@@ -1,6 +1,6 @@
 package org.open_inquiry_domain;
 
-public abstract class SanctionHolder {
+public class PenaltyHolder {
 
 	private int id;
 	private String dni;
@@ -8,10 +8,10 @@ public abstract class SanctionHolder {
 	private String lastName;
 	private String fullAddress;
 
-	public SanctionHolder(int id) {
+	public PenaltyHolder(int id) {
 		this.id = id;
 	}
-	public SanctionHolder(String dni, String name, String lastName, String fullAddress) {
+	public PenaltyHolder(String dni, String name, String lastName, String fullAddress) {
 		this.dni = dni;
 		this.name = name;
 		this.lastName = lastName;

@@ -1,5 +1,5 @@
 package org.open_inquiry_domain;
-public class Owner extends SanctionHolder {
+public class Owner extends PenaltyHolder {
 	private Inquiry inquiry;
 	
 	
