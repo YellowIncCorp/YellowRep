@@ -21,9 +21,9 @@
     </dependency>
   </dependencies>
   <groupId>2</groupId>
-  <version>1</version>
   <organization>
   	<name>yellowinc</name>
   	<url>https://sites.google.com/site/yellowinccorp/</url>
   </organization>
+  <version>2</version>
 </project>
