@@ -1,9 +1,10 @@
 package Domain;
 
+import Persistence.DAOGeneral;
 
 public class Manager {
 
-	private Manager() {
+	public Manager() {
 		throw new UnsupportedOperationException();
 	}
 
@@ -11,7 +12,7 @@ public class Manager {
 		throw new UnsupportedOperationException();
 	}
 
-	public int openInquiry(String aLicense, double aSpeed, String aLocation, double aMaxSpeed) {
+	public int openInquiry(String license, double speed, String location, double maxSpeed) throws Exception{
 		throw new UnsupportedOperationException();
 	}
 	

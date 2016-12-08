@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import com.mysql.jdbc.PreparedStatement;
+
 public class DBBroker {
 	private static DBBroker instance = null;
 	private static Connection connection = null;
@@ -35,7 +37,8 @@ public class DBBroker {
 		return update_done;
 	}
 
-	public int insert(String query) throws SQLException{
+	
+	public static int insert(String query) throws SQLException{
 		Statement statement = connection.createStatement();
 		int insert_done = statement.executeUpdate(query);
 		return insert_done;

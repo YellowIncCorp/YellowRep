@@ -1,13 +1,20 @@
 package Persistence;
 
-public class DAOGeneral {
-	private DBBroker _dbbroker;
+import java.sql.SQLException;
 
-	public DAOGeneral() {
-		throw new UnsupportedOperationException();
+import Domain.Inquiry;
+
+public class DAOGeneral {
+	private DBBroker dbbroker;
+
+	public DAOGeneral() throws SQLException, Exception {
+		dbbroker=new DBBroker();
 	}
 
 	public void insert() {
+		throw new UnsupportedOperationException();
+	}
+	public int insertInquiry(Inquiry inquiry) throws Exception{
 		throw new UnsupportedOperationException();
 	}
 

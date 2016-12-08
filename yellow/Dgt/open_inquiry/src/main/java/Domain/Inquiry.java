@@ -9,10 +9,16 @@ public class Inquiry {
 	private double _m_speed;
 	private double _speed;
 	private String _license;
-
+	private Driver driver;
 	
-	public Inquiry(String aLicense, String aLocation, double aM_speed, double a_speed) {
-		throw new UnsupportedOperationException();
+
+	public Inquiry( String _license, String _location, double _m_speed, double _speed) {
+
+		this._location_ = _location;
+		this._m_speed = _m_speed;
+		this._speed = _speed;
+		this._license = _license;
+		this.driver=findDriver(_license);
 	}
 
 	public int get_id() {
@@ -63,7 +69,7 @@ public class Inquiry {
 		this._license = _license;
 	}
 
-	public void findOwner(String aLicense) {
+	public Driver findDriver(String aLicense) {
 		throw new UnsupportedOperationException();
 	}
 	
