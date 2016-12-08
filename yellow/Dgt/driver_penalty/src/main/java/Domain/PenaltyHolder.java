@@ -1,4 +1,4 @@
-package org.driver_penalty_domain;
+package Domain;
 
 public class PenaltyHolder {
 

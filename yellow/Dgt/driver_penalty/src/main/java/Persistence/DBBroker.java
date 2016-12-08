@@ -1,4 +1,4 @@
-package driver_penalty_persistance;
+package Persistence;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

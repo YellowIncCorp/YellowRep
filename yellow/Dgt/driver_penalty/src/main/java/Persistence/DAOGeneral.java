@@ -1,4 +1,4 @@
-package driver_penalty_persistance;
+package Persistence;
 
 public class DAOGeneral {
 	private DBBroker _dbbroker;

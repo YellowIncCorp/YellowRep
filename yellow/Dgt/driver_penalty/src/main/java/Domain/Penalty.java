@@ -1,4 +1,4 @@
-package org.driver_penalty_domain;
+package Domain;
 
 import java.util.Date;
 

@@ -1,6 +1,6 @@
-package driver_penalty_persistance;
+package Persistence;
 
-import org.driver_penalty_domain.Driver;
+import Domain.Driver;
 
 public class DriverDao {
 
