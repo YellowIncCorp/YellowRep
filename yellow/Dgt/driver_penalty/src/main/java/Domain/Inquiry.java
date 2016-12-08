@@ -10,15 +10,11 @@ public class Inquiry {
 	private Double speed;
 	private Penalty penalty;
 	private Driver owner;
-	public Inquiry(int id, Date date, String location, Double m_speed, Double speed, Penalty penalty, Driver owner) {
+	public Inquiry(String license, double speed, String location, double maxSpeed) {
 		super();
-		this.id = id;
-		this.date = date;
-		this.location = location;
-		this.m_speed = m_speed;
+		this.location = location;	
 		this.speed = speed;
-		this.penalty = penalty;
-		this.owner = owner;
+		this.owner = findOwner(license);
 	}
 	public int getId() {
 		return id;
@@ -62,8 +58,8 @@ public class Inquiry {
 	public void setOwner(Driver owner) {
 		this.owner = owner;
 	}
-	public void findOwner(String aLicense){
-		
+	public Driver findOwner(String aLicense){
+		throw new UnsupportedOperationException();
 	}
 	
 
