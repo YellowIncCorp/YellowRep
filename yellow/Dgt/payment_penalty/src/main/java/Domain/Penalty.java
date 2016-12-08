@@ -8,13 +8,15 @@ public class Penalty {
 	private Date datePayment;
 	private Double money;
 	private int lostpoints;
-	public Penalty(int id, Date dateRecept, Date datePayment, Double money, int lostpoints) {
+	private Driver driver;
+	public Penalty(int id, Date dateRecept, Date datePayment, Double money, int lostpoints,Driver driver) {
 		super();
 		this.id = id;
 		this.dateRecept = dateRecept;
 		this.datePayment = datePayment;
 		this.money = money;
 		this.lostpoints = lostpoints;
+		this.driver=driver;
 	}
 	public int getId() {
 		return id;
