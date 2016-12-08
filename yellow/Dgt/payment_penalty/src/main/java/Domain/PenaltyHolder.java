@@ -1,4 +1,4 @@
-package org.payment_penalty_domain;
+package Domain;
 
 public class PenaltyHolder {
 

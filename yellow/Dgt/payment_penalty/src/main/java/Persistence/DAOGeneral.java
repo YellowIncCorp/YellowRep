@@ -1,4 +1,4 @@
-package org.payment_penalty_persistence;
+package Persistence;
 
 public class DAOGeneral {
 	private DBBroker _dbbroker;

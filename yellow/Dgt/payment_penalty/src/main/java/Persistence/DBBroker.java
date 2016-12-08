@@ -1,4 +1,4 @@
-package org.payment_penalty_persistence;
+package Persistence;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
