@@ -2,7 +2,7 @@ package org.open_inquiry;
 
 import java.sql.SQLException;
 
-import org.open_inquiry_persistance.DBBroker;
+import Persistence.DBBroker;
 
 /**
  * Hello world!

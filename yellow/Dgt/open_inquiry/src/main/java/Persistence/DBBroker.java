@@ -1,4 +1,4 @@
-package org.open_inquiry_persistance;
+package Persistence;
 
 
 import java.sql.Connection;

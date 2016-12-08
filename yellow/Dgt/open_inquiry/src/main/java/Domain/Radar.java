@@ -1,4 +1,4 @@
-package org.open_inquiry_domain;
+package Domain;
 
 public class Radar {
 	private boolean state;

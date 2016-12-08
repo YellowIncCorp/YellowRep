@@ -1,6 +1,6 @@
-package org.open_inquiry_persistance;
+package Persistence;
 
-import org.open_inquiry_domain.Driver;
+import Domain.Driver;
 
 public class DriverDao {
 
