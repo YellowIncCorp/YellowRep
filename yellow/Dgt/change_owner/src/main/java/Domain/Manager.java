@@ -11,9 +11,10 @@ public class Manager {
 		throw new UnsupportedOperationException();
 	}
 
-	public int openInquiry(String aLicense, double aSpeed, String aLocation, double aMaxSpeed) {
+	public void changeOwner(String aLicense, String aNewDni) {
 		throw new UnsupportedOperationException();
 	}
+	
 	
 	
 }

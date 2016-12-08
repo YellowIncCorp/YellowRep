@@ -10,10 +10,13 @@ public class Manager {
 	public static Manager get() {
 		throw new UnsupportedOperationException();
 	}
-
-	public int openInquiry(String aLicense, double aSpeed, String aLocation, double aMaxSpeed) {
+	
+	public void pay(int IdSanction) {
 		throw new UnsupportedOperationException();
 	}
+
+
+
 	
 	
 }

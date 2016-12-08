@@ -25,6 +25,7 @@
   	<module>open_inquiry</module>
   	<module>driver_penalty</module>
   	<module>payment_penalty</module>
+  	<module>change_owner</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
